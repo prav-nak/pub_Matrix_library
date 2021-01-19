@@ -1,12 +1,5 @@
 # Matrix library
 
-# TL;DR
-To compile and run the test code, use:
-```./compile_and_run.sh```
-
-
-# Matrix library
-
 A number of numeric libraries exist for matrix algebra, e.g., Armadillo, Eigen etc. It is important to have exposure to LAPACK as an exercise in scientific computing. Also, when prototyping code, one may require a quick and dirty way to perform matrix computations with minimal external dependencies. To this end, this repo consists of a high-level C++ class that wraps around low-level LAPACK subroutines. This is a small header only c++ library for matrix algebra. It consists of
 - A templated matrix class with overloaded operators for
   - matrix-vector operations
@@ -105,3 +98,9 @@ void QRSolve(const Matrix<T>& inMatA, const std::vector<T>& inVecb,
     return;
 }
 ```
+# TL;DR
+To compile and run the test code, use:
+```./compile_and_run.sh```
+
+
+*Like other repos, this one is encrypted using git crypt. If you would like to collaborate please contact.*
